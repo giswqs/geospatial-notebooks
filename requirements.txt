@@ -2,5 +2,8 @@
 geopandas
 keplergl
 localtileserver
+osmnx
+pydeck
+requests
 git+https://github.com/giswqs/leafmap
 git+https://github.com/giswqs/geemap
