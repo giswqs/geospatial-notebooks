@@ -1,8 +1,8 @@
-site_name: Mkdocs Template
+site_name: Geospatial Notebooks
 
-site_url: https://giswqs.github.io/mkdocs-template
+site_url: https://giswqs.github.io/geospatial-notebooks
 
-repo_url: https://github.com/giswqs/mkdocs-template
+repo_url: https://github.com/giswqs/geospatial-notebooks
 
 theme:
   palette:
@@ -36,12 +36,57 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Chapter 1:
-      - chapter_01/intro.ipynb
-      - chapter_01/basemaps.ipynb
-  - Chapter 2:
-      - chapter_02/colorbar.ipynb
-      - chapter_02/heatmap.ipynb
+  - Leafmap:
+      - leafmap/00_key_features.ipynb
+      - leafmap/01_leafmap_intro.ipynb
+      - leafmap/02_using_basemaps.ipynb
+      - leafmap/03_cog_stac.ipynb
+      - leafmap/04_cog_mosaic.ipynb
+      - leafmap/05_load_raster.ipynb
+      - leafmap/06_legend.ipynb
+      - leafmap/07_colorbar.ipynb
+      - leafmap/08_whitebox.ipynb
+      - leafmap/09_csv_to_points.ipynb
+      - leafmap/10_add_vector.ipynb
+      - leafmap/11_linked_maps.ipynb
+      - leafmap/12_split_map.ipynb
+      - leafmap/13_geopandas.ipynb
+      - leafmap/14_postgis.ipynb
+      - leafmap/15_openstreetmap.ipynb
+      - leafmap/16_heremap.ipynb
+      - leafmap/17_vector_tile_layer.ipynb
+      - leafmap/18_point_layer.ipynb
+      - leafmap/19_map_to_html.ipynb
+      - leafmap/20_planet_imagery.ipynb
+      - leafmap/21_ts_inspector.ipynb
+      - leafmap/22_time_slider.ipynb
+      - leafmap/23_colormaps.ipynb
+      - leafmap/24_heatmap.ipynb
+      - leafmap/25_map_title.ipynb
+      - leafmap/26_kepler_gl.ipynb
+      - leafmap/27_basemap_gallery.ipynb
+      - leafmap/28_publish_map.ipynb
+      - leafmap/29_pydeck.ipynb
+      - leafmap/30_census_data.ipynb
+      - leafmap/31_search_basemaps.ipynb
+      - leafmap/32_local_tile.ipynb
+      - leafmap/33_image_overlay.ipynb
+      - leafmap/34_add_points_from_xy.ipynb
+      - leafmap/35_circle_markers.ipynb
+      - leafmap/36_add_labels.ipynb
+      - leafmap/37_planetary_computer.ipynb
+      - leafmap/38_plotly.ipynb
+      - leafmap/39_inspector_tool.ipynb
+      - leafmap/40_plotly_gui.ipynb
+      - leafmap/41_raster_gui.ipynb
+      - leafmap/42_create_cog.ipynb
+      - leafmap/43_search_control.ipynb
+      - leafmap/44_attribute_table.ipynb
+      - leafmap/45_create_vector.ipynb
+      - leafmap/46_edit_vector.ipynb
+      - leafmap/47_numpy_to_cog.ipynb
+      - leafmap/48_lidar.ipynb
+      - leafmap/49_split_control.ipynb
   - Blog: https://blog.gishub.org
   - YouTube Channel: https://www.youtube.com/c/QiushengWu
-  - Report Issues: https://github.com/giswqs/mkdocs-template/issues
+  - Report Issues: https://github.com/giswqs/geospatial-notebooks/issues
