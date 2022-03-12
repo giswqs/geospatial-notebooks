@@ -35,7 +35,7 @@ markdown_extensions:
 #   - auto
 
 nav:
-  - Home: index.md
+  - Home: index.ipynb
   - Leafmap:
       - leafmap/01_leafmap_intro.ipynb
       - leafmap/02_using_basemaps.ipynb
