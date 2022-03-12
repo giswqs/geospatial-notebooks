@@ -37,7 +37,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Leafmap:
-      - leafmap/00_key_features.ipynb
       - leafmap/01_leafmap_intro.ipynb
       - leafmap/02_using_basemaps.ipynb
       - leafmap/03_cog_stac.ipynb
