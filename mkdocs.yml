@@ -23,6 +23,7 @@ plugins:
   - git-revision-date
   - mkdocs-jupyter:
       include_source: True
+      ignore_h1_titles: True
       execute: True
 
 markdown_extensions:
