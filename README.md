@@ -1,6 +1,6 @@
 # geospatial-notebooks
 
-A template for turning Jupyter notebooks and markdown files into a website.
+This repo contains a collection of Jupyter notebooks for geospatial applications.
 
 Steps to use this template:
 
